@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 numeros = list(range(3, 10001, 2))
 
 print (2)
@@ -14,10 +13,8 @@ primos = []
 
 for numero in numeros:
     if numero in numeros:
+        print (numero)
         primos.append(numero)
         for multiplo in range(numero * 2, 10001, numero):
             if multiplo in numeros:
                 numeros.remove(multiplo)
-
-print (primos)
->>>>>>> 7349ba9 (Envio do desafio 02 por Talita Ribeiro (talita048 no GitHub))
