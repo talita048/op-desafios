@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Gerador de Números Primos
 
 Este é um programa em Python que gera todos os números primos entre 2 e 10.000. Um número primo é um número que só pode ser dividido por 1 e por ele mesmo. O programa usa o método do crivo de Eratóstenes, que elimina os múltiplos dos números primos, começando pelo 2.
@@ -19,3 +20,8 @@ Quando você estiver na pasta onde está o arquivo do programa, você pode execu
 ## Contato
 
 Se você tiver alguma dúvida, sugestão ou feedback sobre o programa, você pode entrar em contato comigo pelo e-mail: talitacostatj@gmail.com.
+=======
+Bem Vindo(a)!
+
+Esse programa foi criado com a simples finalidade de exibir todos os números primos naturais de 1 a 10.000.
+>>>>>>> e56b219 (Criação do README.md)
