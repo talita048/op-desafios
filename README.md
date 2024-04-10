@@ -132,7 +132,7 @@ desafio-02/johndoe/java/MeuPrograma.java
 desafio-02/johndoe/java/README.md
 ```
 
-> **Importante**: Envie um PR por por desafio. PRs com múltiplos desafios serão
+> **Importante**: Envie um PR por desafio. PRs com múltiplos desafios serão
   rejeitados.
 
 ## Testes de integração
@@ -217,7 +217,7 @@ Leia a documentação da linguagem Go sobre como obter essas ferramentas
 1. Use indentação em **4 espaços**.
 
 1. Cheque o seu código com o [pylint](http://pylint.org) antes de enviar. O
-   arquivo de configuração usado pelo depo está em `ci/pylint3.rc`. Para
+   arquivo de configuração usado pelo repo está em `ci/pylint3.rc`. Para
    checar o seu programa, rode:
 
    ```
@@ -227,7 +227,7 @@ Leia a documentação da linguagem Go sobre como obter essas ferramentas
 1. Pull Requests contendo código em Python serão automaticamente verificados
    pelo pylint. Ao submeter um PR, observe a tela do PR e verifique se a
    integração falhou. Em caso de erro, clique no link e verifique as mensagens
-   de erro do pylint. Corrija o código, faça outro submit e push.
+   de erro do pylint. Corrija o código, faça outro commit e push.
 
 ### Javascript
 
@@ -258,9 +258,23 @@ Leia a documentação da linguagem Go sobre como obter essas ferramentas
 1. Pull Requests contendo código em Javascript serão automaticamente verificados
    pelo eslint. Ao submeter um PR, observe a tela do PR e verifique se a
    integração falhou. Em caso de erro, clique no link e verifique as mensagens
-   de erro do eslint. Corrija o código, faça outro submit e push.
+   de erro do eslint. Corrija o código, faça outro commit e push.
 
 > :warning: Não faça commit da pasta `node_modules` e dos arquivos `package.json` e `package-lock.json`. Não faça `git add *`, adicione *somente* sua pasta de solução no commit.
+
+## Corrigindo um desafio
+
+Qualquer um pode se voluntariar para corrigir os desafios [na lista de pull requests](https://github.com/OsProgramadores/op-desafios/pulls). Você pode usar um script auxiliar para fazer checkout de um fork.
+
+Digamos que você tenha que corrigir o desafio do usuário `MatMercer` na branch `d10`:
+
+```
+./checkout-fork.sh MatMercer:d10
+
+# os comandos abaixo dependem do desafio e linguagem de programação usada
+cd desafio-10/MatMercer/go
+make
+```
 
 ## Ainda tem dúvidas?
 
