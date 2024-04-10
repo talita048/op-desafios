@@ -7,7 +7,7 @@ for numero in numeros:
         for multiplo in range(numero * 2, 10001, numero):
             if multiplo in numeros:
                 numeros.remove(multiplo)
-=======
+
 numeros = list(range(2, 10001))
 primos = []
 
